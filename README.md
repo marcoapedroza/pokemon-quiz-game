@@ -13,7 +13,7 @@
 
 - Object-oriented Programming Project:
 
-  - This project was build in python
+  - This project was built in python
 
   - The data used in this project came from [Pokemondb](https://pokemondb.net/pokedex/game/x-y) (Web Scraping)
   - I used a [Class](./poke_question.py) to build a dynamic quiz game
