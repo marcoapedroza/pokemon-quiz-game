@@ -1,8 +1,8 @@
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+import time
 def pokemon_scraping():
-    import requests
-    from bs4 import BeautifulSoup
-    import pandas as pd
-    import time
     url = "https://pokemondb.net/pokedex/game/x-y"
     headers = ({'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36', 'Accept-Language': 'en-US, en;q=0.5'})
     r = requests.get(url, headers=headers)

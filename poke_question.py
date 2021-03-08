@@ -1,7 +1,7 @@
+import random
 class SetupQuiz:
 
     def __init__(self, q_list, number_of_questions):
-        import random
         self.question_number = 0
         self.score = 0
         self.question_list = q_list
@@ -12,7 +12,6 @@ class SetupQuiz:
         return self.question_number < self.number_of_questions
     
     def next_question(self):
-        import random
         current_question = self.question_list[self.poke_question]
         self.question_number += 1
         self.poke_question = random.randint(0, len(self.question_list)-1)
